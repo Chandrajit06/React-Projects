@@ -11,21 +11,18 @@ function App() {
 
           <div>
             <div className="bg-slate-800 mt-5 flex justify-between py-3 px-4 rounded-lg shadow-2xl shadow-black/40">
-              <span className="text-xl">
-                Password Generator</span>
-              <button 
+              <span className="text-xl">Counter</span>
+              <Link    to="/counter"
                 className="p-1 bg-blue-600 hover:bg-blue-700 cursor-pointer rounded-lg px-2 shadow-2xl shadow-black/40"
               >
-                Go to Website</button>
+              Go to Website</Link>
             </div>
-            
             <div className="bg-slate-800 mt-5 flex justify-between py-3 px-4 rounded-lg shadow-2xl shadow-black/40">
-              <span className="text-xl">
-                Password Generator</span>
-              <button className="p-1 bg-blue-600 hover:bg-blue-700 cursor-pointer rounded-lg px-2 shadow-2xl shadow-black/40"
-                
+              <span className="text-xl">Background Changer</span>
+              <Link    to="/bgchanger"
+                className="p-1 bg-blue-600 hover:bg-blue-700 cursor-pointer rounded-lg px-2 shadow-2xl shadow-black/40"
               >
-                Go to Website</button>
+              Go to Website</Link>
             </div>
             
           </div>
