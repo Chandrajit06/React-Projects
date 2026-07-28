@@ -17,6 +17,7 @@ function App() {
               >
               Go to Website</Link>
             </div>
+            
             <div className="bg-slate-800 mt-5 flex justify-between py-3 px-4 rounded-lg shadow-2xl shadow-black/40">
               <span className="text-xl">Background Changer</span>
               <Link    to="/bgchanger"
