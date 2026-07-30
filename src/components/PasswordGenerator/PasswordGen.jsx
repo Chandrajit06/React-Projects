@@ -1,4 +1,5 @@
 import { useCallback, useEffect, useRef, useState } from "react"
+import { Link } from "react-router-dom"
 
 function PasswordGen(){
 
@@ -88,6 +89,10 @@ function PasswordGen(){
 
                 </div>
             </div>
+            <Link to="/" 
+                className="bg-slate-800 text-xl text-white px-2 py-1 rounded-lg absolute bottom-15 left-1/2 -translate-x-1/2 shadow-2xl shadow-black/40 hover:bg-slate-700">
+            ← Back to Projects
+            </Link>
         </>
     )
 }
