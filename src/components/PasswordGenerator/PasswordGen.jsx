@@ -38,7 +38,7 @@ function PasswordGen(){
     return (
         <>
             <div className="w-full h-screen bg-slate-950 text-white pt-30">
-                <h1 className="text-4xl font-bold text-center text-emerald-400 p-10">PassWord Generator</h1>
+                <h1 className="text-4xl font-bold text-center text-white p-10">PassWord Generator</h1>
                 <div className="w-full max-w-md mx-auto shadow-lg rounded-lg px-4 py-4 text-white bg-slate-800">
 
                     <div className="flex shadow-lg rounded-lg overflow-hidden mb-4">
