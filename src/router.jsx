@@ -4,6 +4,7 @@ import Counter from "./components/Counter/Counter.jsx";
 import BgChanger from "./components/BgChanger/BgChanger.jsx";
 import PasswordGen from "./components/PasswordGenerator/PasswordGen.jsx";
 import CurrencyConverter from "./components/CurrencyConverter/CurrencyConverter.jsx";
+import ThemeSwitcher from "./components/ThemeSwitcher/ThemeSwitcher.jsx";
 
 const router = createBrowserRouter(
     createRoutesFromElements(
@@ -13,6 +14,7 @@ const router = createBrowserRouter(
             <Route path="/bgchanger" element={<BgChanger />} />
             <Route path="/password-generator" element={<PasswordGen />} />
             <Route path="/currency-converter" element={<CurrencyConverter />} />
+            <Route path="/theme-switcher" element={<ThemeSwitcher />} />
         </Route>
     )
 )
