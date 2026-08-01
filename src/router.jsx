@@ -5,6 +5,7 @@ import BgChanger from "./components/BgChanger/BgChanger.jsx";
 import PasswordGen from "./components/PasswordGenerator/PasswordGen.jsx";
 import CurrencyConverter from "./components/CurrencyConverter/CurrencyConverter.jsx";
 import ThemeSwitcher from "./components/ThemeSwitcher/ThemeSwitcher.jsx";
+import TodoApp from "./components/TodoApp/TodoApp.jsx";
 
 const router = createBrowserRouter(
     createRoutesFromElements(
@@ -15,6 +16,7 @@ const router = createBrowserRouter(
             <Route path="/password-generator" element={<PasswordGen />} />
             <Route path="/currency-converter" element={<CurrencyConverter />} />
             <Route path="/theme-switcher" element={<ThemeSwitcher />} />
+            <Route path="/todo-app" element={<TodoApp />} />
         </Route>
     )
 )
